@@ -6,15 +6,6 @@ public class Settings {
     public String commonDir;
     public String thriftDir092;
     public String thriftDir080;
-    public String serverIP;
-
-    public String getServerIP() {
-        return serverIP;
-    }
-
-    public void setServerIP(String serverIP) {
-        this.serverIP = serverIP;
-    }
 
     public String getCommonDir() {
         return commonDir;
