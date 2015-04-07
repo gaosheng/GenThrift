@@ -1,0 +1,9 @@
+package ${PACKAGE};
+
+import org.apache.thrift.TException;
+
+public class ${SERVICE}Impl implements ${SERVICE}.Iface {
+
+    ${METHOD}
+
+}

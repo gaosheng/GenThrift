@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <!--192.168.4.128的线下机器-->
+    <bean id="settings" class="com.gs.thrift.param.Settings">
+        <property name="commonDir" value="/home/sankuai/GenThrift/"/>
+        <property name="thriftDir080" value="/usr/local/bin/thrift"/>
+        <property name="thriftDir092" value="/usr/bin/thrift"/>
+        <property name="serverIP" value="http://192.168.4.128:8888"/>
+    </bean>
+
+</beans>

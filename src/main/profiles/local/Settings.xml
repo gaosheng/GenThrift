@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+    <bean id="settings" class="com.gs.thrift.param.Settings">
+        <property name="commonDir" value="/Users/gaosheng/ThriftTest/"/>
+        <property name="thriftDir080" value="/usr/local/bin/thrift"/>
+        <property name="thriftDir092" value="/usr/local/bin/thrift"/>
+        <property name="serverIP" value="http://172.30.13.201:8888"/>
+    </bean>
+
+</beans>

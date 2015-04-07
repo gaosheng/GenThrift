@@ -1,0 +1,19 @@
+package ${PACKAGE};
+
+import org.apache.thrift.TException;
+import org.junit.*;
+
+public class ${SERVICE}ImplTest {
+
+    @Before
+    public void initClient() {
+        Client.initClient();
+    }
+
+    @After
+    public void destroyClient() {
+        Client.destroyClient();
+    }
+
+    ${METHOD}
+}

@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+    <bean id="settings" class="com.gs.thrift.param.Settings">
+        <property name="commonDir" value="/home/sankuai/GenThrift/"/>
+        <property name="thriftDir080" value="/usr/bin/thrift"/>
+        <property name="thriftDir092" value="/usr/local/thrift/thrift"/>
+        <property name="serverIP" value="http%3A%2F%2Fgenthrift.sankuai.com"/>
+    </bean>
+
+</beans>
