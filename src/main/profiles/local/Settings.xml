@@ -8,7 +8,6 @@
         <property name="commonDir" value="/Users/gaosheng/ThriftTest/"/>
         <property name="thriftDir080" value="/usr/local/bin/thrift"/>
         <property name="thriftDir092" value="/usr/local/bin/thrift"/>
-        <property name="serverIP" value="http://172.30.13.201:8888"/>
     </bean>
 
 </beans>

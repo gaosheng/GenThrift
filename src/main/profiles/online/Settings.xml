@@ -7,7 +7,6 @@
         <property name="commonDir" value="/home/sankuai/GenThrift/"/>
         <property name="thriftDir080" value="/usr/bin/thrift"/>
         <property name="thriftDir092" value="/usr/local/thrift/thrift"/>
-        <property name="serverIP" value="http%3A%2F%2Fgenthrift.sankuai.com"/>
     </bean>
 
 </beans>
